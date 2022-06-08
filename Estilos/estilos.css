@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 227, 227);
+    font-family: 'Catamaran', sans-serif;
+}
+
+footer {
+    background-image: url(../img/12.jpg);
+    background-repeat: repeat-x;
+    background-position: right;
+    color: rgb(43, 43, 43);
+    border: solid 2px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header {
+    background-color: rgb(255, 187, 123);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: solid 2px rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+    margin-bottom: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+.senteylogo {
+    height: 112px;
+    width: auto;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+
+#pieDeImagenLocal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.promocionesTamañoLetras {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    font-size: 19px;
+    padding: 10px 10px 10px 0px;
+}
+
+.tamañoImagenPromociones {
+    height: 400px;
+    width: auto;
+    text-align: left;
+}
+
+.letraNegra {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#tamañoDeImagenesNostros {
+    height: 800px;
+    width: auto;
+    padding-left: 10px;
+}
+
+.listaMenu {
+    font-size: 20px;
+}
+
+.tamañoDeImagenMenu {
+    height: 400px;
+    width: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+.tamañoLocalesImg {
+    height: 500px;
+    width: auto;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.paddingDerecho {
+    padding-right: 40px;
+}
+
+main {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.bordeDeVideo {
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+.letraContacto {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#generoContacto {
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    border-top: solid 2px black;
+}
+
+#conformidadContacto {
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 10px;
+    border-top: solid 2px black;
+}
+
+.espacioContacto {
+    padding: 10px 0px 10px 0px;
+}
+
+.pieImagenIndex {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#fechaNacimientoPosicion {
+    padding: 10px 0px 10px 0px;
+    border-top: solid 2px black;
+}
+
+#motivoContactoLineas {
+    padding: 10px 0px 10px 0px;
+    border-top: solid 2px black;
+}
+
+#mainContacto {
+    margin-left: 500px;
+    margin-right: 450px;
+    padding: 0px;
+}
+
+#recibirNotificacionesBorde {
+    border-top: solid 2px black;
+}
+
+#botonLocales {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    line-height: 17px;
+    padding: 4px;
+    border-radius: 0px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(255, 172, 172) 0%, rgb(255, 172, 172) 50%, rgb(255, 172, 172) 100%);
+    box-shadow: rgba(0, 0, 0, 0) 5px 5px 0px 5px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 180vh;
+}
+
+#imagenesLocalFlexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promocionesFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#segundaImagenFlexBoxPromociones {
+    padding: 0 20vh 0 20vh;
+}
+
+#segundaTextoPromociones {
+    padding: 0 10vh 0 10vh;
+}
+
+.pieImagenIndex {
+    margin-right: 40px;
+}
+
+.footerMapaFlexBox {
+    display: flex;
+}
+
+.footerTextoFlexbox {
+    padding: 60px 0px 0px 10px;
+}
+
+.menuFlexBoxUno {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#listamenuFlexbox {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.menuFlexBoxDos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.menuFlexBoxTre {
+    padding-top: 40px;
+}
+
+#listamenuFlexboxDos {
+    padding-top: 60px;
+}
+
+#listamenuFlexboxTres {
+    padding-top: 60px;
+}
+
+#paddingImagenMenu {
+    padding-top: 60px;
+    padding-right: 30vh;
+}
+
+#paddingImagenMenuDos {
+    padding-top: 60px;
+    padding-right: 30vh;
+}
+
+.localesBoxModel {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.paddingMapas {
+    padding-left: 10px;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.nosotrosFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#videoFlexModel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#centrarTexto {
+    padding-left: 50vh;
+}
+
+.paddingMenunIzquierdo {
+    margin-left: 5px;
+}
